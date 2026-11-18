@@ -1,0 +1,29 @@
+{
+  "name": "animated-lyric-video-kit",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Animated lyric videos for Shorts, Reels and TikTok with Remotion: a drawn story plus karaoke lyrics, one song at a time.",
+  "license": "MIT",
+  "type": "module",
+  "scripts": {
+    "start": "remotion studio src/index.ts",
+    "new-song": "node scripts/new-song.mjs",
+    "stills": "node scripts/stills.mjs",
+    "render": "node scripts/render.mjs",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@remotion/bundler": "4.0.383",
+    "@remotion/cli": "4.0.383",
+    "@remotion/google-fonts": "4.0.383",
+    "@remotion/renderer": "4.0.383",
+    "react": "19.1.0",
+    "react-dom": "19.1.0",
+    "remotion": "4.0.383"
+  },
+  "devDependencies": {
+    "@types/react": "^19.2.18",
+    "@types/react-dom": "^19.2.4",
+    "typescript": "~5.6.3"
+  }
+}

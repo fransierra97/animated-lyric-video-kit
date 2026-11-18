@@ -1,0 +1,5 @@
+# Speech-to-text with word timestamps. Install ONE of them.
+# Apple Silicon Mac (fast, uses the GPU):
+mlx-whisper>=0.4
+# Any other system (CPU or NVIDIA GPU): comment the line above and use
+# faster-whisper>=1.0
